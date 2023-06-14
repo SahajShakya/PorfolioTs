@@ -4,6 +4,7 @@ import GuestList from "./state/GuestList";
 import UserSearch from "./state/UserSearch";
 import ReferenceSearch from "./ref/ReferenceSearch";
 import RefAsStateChange from "./ref/RefAsStateChange";
+import UserSearchRef from "./ref/UserSearchRef";
 
 const App = () => {
     return (
@@ -14,5 +15,5 @@ const App = () => {
 };
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-    <RefAsStateChange />
+    <UserSearchRef />
 )
